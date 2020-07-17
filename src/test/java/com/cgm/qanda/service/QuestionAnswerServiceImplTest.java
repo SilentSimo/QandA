@@ -99,7 +99,7 @@ public class QuestionAnswerServiceImplTest {
         }
 
     }
-
+    /*This test fails because there is no check on question lenght, throws error on size of varchar in the db*/
     @Test
     public void addQuestionTooLongTest() {
         Question q = createQuestionEntity();

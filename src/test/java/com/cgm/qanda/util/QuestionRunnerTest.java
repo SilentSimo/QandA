@@ -24,7 +24,7 @@ import java.util.Scanner;
 @ActiveProfiles("test")
 @ContextConfiguration(classes = QnAApplication.class,
         initializers = ConfigFileApplicationContextInitializer.class)
-
+/*Tried to test class Question runner but it is not designed for testing*/
 public class QuestionRunnerTest {
 
     @Autowired
