@@ -100,7 +100,7 @@ public class QuestionAnswerServiceImplTest {
 
     }
 
-    /*@Test
+    @Test
     public void addQuestionTooLongTest() {
         Question q = createQuestionEntity();
         String question = StringUtils.repeat('*',257);
@@ -112,6 +112,6 @@ public class QuestionAnswerServiceImplTest {
         assertNotNull(answers);
         assertNotEquals("answer1", answers.get(0));
 
-    }*/
+    }
 
 }
